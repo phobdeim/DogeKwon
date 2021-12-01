@@ -1,0 +1,313 @@
+#root {
+  text-align: center;
+}
+#firstSection {
+  width: 100%;
+  min-height: calc(100vh);
+  background-image: url("../../assets/bg1.png");
+  background-size: cover;
+  text-align: center;
+}
+#logo {
+  width: 200px;
+  margin-top: 200px;
+}
+#title {
+  color: #fff082;
+  font: normal normal 600 55px/67px Montserrat;
+  margin: 0;
+}
+#titleSub {
+  font: normal normal 300 19px/25px Roboto;
+  letter-spacing: 3.8px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+#socials {
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.socialsLogo {
+  cursor: pointer;
+  margin: 20px;
+}
+#down {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: calc(100vh - 170px);
+  cursor: pointer;
+}
+
+#secondSection {
+  background-image: url("../../assets/bg2.png");
+  background-size: 100% auto;
+  min-height: 100vh;
+  margin-top: -2px;
+  padding-top: 80px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.heading {
+  color: #fff082;
+  font: normal normal 300 40px/49px Montserrat;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+.text {
+  font: normal normal 300 20px/28px Roboto;
+  color: white;
+  max-width: 922px;
+  margin: auto;
+  line-height: 36px;
+}
+#whoAreWeHeading {
+  margin-top: 80px;
+}
+#joinTeamButton {
+  cursor: pointer;
+  margin-top: 40px;
+  width: 153px;
+  height: 44px;
+  background: #fff082 0% 0% no-repeat padding-box;
+  border-radius: 26px;
+  font: normal normal 300 16px Roboto;
+}
+#tokenomicsBox {
+  border: 0.75px dashed #fff082;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 50px;
+  width: 1200px;
+  margin-bottom: 100px;
+  max-width: 70%;
+}
+.contentBox {
+  background: #151517 0% 0% no-repeat padding-box;
+  border-radius: 21px;
+  padding: 30px 0px;
+  width: 450px;
+  margin: auto;
+  max-width: 100%;
+}
+.contentBoxHeading {
+  font: normal normal bold 24px/29px Montserrat;
+  color: #fff082;
+}
+.contentBoxContent {
+  font: normal normal normal 24px/32px Roboto;
+  letter-spacing: 1.2px;
+  color: #ffffff;
+  margin-top: 5px;
+}
+.percentagesContainer {
+  margin-top: 130px;
+  width: fit-content;
+}
+.percentageContainer {
+  background: #151517 0% 0% no-repeat padding-box;
+  width: 544px;
+  height: 25px;
+  border-radius: 20px;
+  padding: 6px;
+  margin-top: 10px;
+}
+.fivePercentBar {
+  width: 25px;
+  height: 25px;
+  background: #fff9cb 0% 0% no-repeat padding-box;
+  border-radius: 18px;
+  margin: 0px;
+  float: left;
+}
+.fivepercentText {
+  text-align: left;
+  margin-left: 40px;
+  font: normal normal normal 15px/20px Roboto;
+  letter-spacing: 0.75px;
+  color: #ffffff;
+  line-height: 25px;
+}
+.eightyFivePercentBar {
+  background: transparent linear-gradient(90deg, #fff9cb 0%, #fff081 100%) 0% 0%
+    no-repeat padding-box;
+  height: 25px;
+  width: 450px;
+  border-radius: 28px;
+}
+.eightyFivePercentText {
+  text-align: left;
+  font: normal normal bold 15px/20px Roboto;
+  letter-spacing: 0.75px;
+  color: #151517;
+  line-height: 25px;
+  float: right;
+  margin-right: 20px;
+}
+#tokensBurnedContainer {
+  width: fit-content;
+  margin-top: 140px;
+  margin-left: 50px;
+}
+#tokensBurnedText {
+  font: normal normal 600 30px/37px Montserrat;
+  color: #fff082;
+  width: 284px;
+  float: right;
+  line-height: 163px;
+  height: 163px;
+  text-align: center;
+  margin-left: 15px;
+}
+#fire {
+  float: left;
+}
+#burnTransactionsContainer {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.burnTransaction {
+  background: #151517 0% 0% no-repeat padding-box;
+  border-radius: 24px;
+  width: 933px;
+  height: 47px;
+  margin: auto;
+  font: normal normal normal 15px/20px Roboto;
+  color: white;
+  line-height: 47px;
+  margin-top: 20px;
+  max-width: 90%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.link {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+}
+.subheading {
+  font: normal normal 300 25px/30px Montserrat;
+  color: #fff9cb;
+}
+#rolesSub {
+  font: normal normal 300 20px/26px Roboto;
+  color: #fff9cb;
+}
+
+#email {
+  background: #151517 0% 0% no-repeat padding-box;
+  border-radius: 47px;
+  width: 450px;
+  height: 93px;
+  color: white;
+  font: normal normal 600 26px/32px Montserrat;
+  margin: auto;
+  line-height: 93px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  max-width: 100%;
+}
+
+.role {
+  background: #151517 0% 0% no-repeat padding-box;
+  border-radius: 18px;
+  width: 245px;
+  height: 66px;
+  font: normal normal bold 25px/33px Roboto;
+  letter-spacing: 0.75px;
+  color: #fff082;
+  line-height: 66px;
+  z-index: 1;
+}
+#rolesLine {
+  position: absolute;
+  width: min(80%, 1500px);
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    #fff082 10%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: top;
+  background-size: 10px 1px;
+  background-repeat: repeat-x;
+  margin-top: 33px;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 1352px) {
+  .percentagesContainer {
+    margin-top: 60px;
+  }
+  #tokensBurnedContainer {
+    margin-top: 60px;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 730px) {
+  #fire {
+    margin: auto;
+    float: none;
+  }
+  #tokensBurnedText {
+    margin: auto;
+    text-align: center;
+    float: none;
+    line-height: 0px;
+    height: 40px;
+    margin-top: 50px;
+  }
+  .percentagesContainer {
+    width: 450px;
+    max-width: 100%;
+  }
+  .percentageContainer {
+    width: 450px;
+    max-width: 100%;
+  }
+  .eightyFivePercentBar {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .role {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  #rolesLine {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #email {
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
+@media only screen and (max-height: 900px) {
+  #down {
+    top: calc(100vh - 90px);
+  }
+}
+
+@media only screen and (max-height: 780px) {
+  #down {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 2700px) {
+  #firstSection {
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+  }
+}
