@@ -120,6 +120,9 @@
 @media only screen and (max-width: 1150px) {
   .blockContainer {
     flex-basis: 100%;
+    margin-top: 0;
+    margin-bottom: 70px !important;
+    padding: 0;
   }
   .left {
     background: none;
