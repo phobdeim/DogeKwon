@@ -40,8 +40,8 @@ const Roadmap = () => {
                 <div className={styles.checkedText}>{e}</div>
               </div>
             ))}
-            {Phase1.unChecked.map((e) => (
-              <div style={{ display: "flex" }}>
+            {Phase1.unChecked.map((e, i) => (
+              <div key={i} style={{ display: "flex" }}>
                 <div>
                   <img className={styles.checkBox} src={UncheckedBox}></img>
                 </div>
@@ -61,8 +61,8 @@ const Roadmap = () => {
                 <div className={styles.heading2}>Marketing</div>
               </div>
 
-              {Phase2.unChecked.map((e) => (
-                <div style={{ display: "flex" }}>
+              {Phase2.unChecked.map((e, i) => (
+                <div key={i} style={{ display: "flex" }}>
                   <div>
                     <img className={styles.checkBox} src={UncheckedBox}></img>
                   </div>
@@ -83,8 +83,8 @@ const Roadmap = () => {
                 <div className={styles.heading2}>Build</div>
               </div>
 
-              {Phase3.unChecked.map((e) => (
-                <div style={{ display: "flex" }}>
+              {Phase3.unChecked.map((e, i) => (
+                <div key={i} style={{ display: "flex" }}>
                   <div>
                     <img className={styles.checkBox} src={UncheckedBox}></img>
                   </div>
@@ -105,8 +105,8 @@ const Roadmap = () => {
                 <div className={styles.heading2}>Moving on</div>
               </div>
 
-              {Phase4.unChecked.map((e) => (
-                <div style={{ display: "flex" }}>
+              {Phase4.unChecked.map((e, i) => (
+                <div key={i} style={{ display: "flex" }}>
                   <div>
                     <img className={styles.checkBox} src={UncheckedBox}></img>
                   </div>
@@ -131,8 +131,8 @@ const Roadmap = () => {
                 <div className={styles.heading2}>Bringing value to Terra</div>
               </div>
 
-              {Phase5.unChecked.map((e) => (
-                <div style={{ display: "flex" }}>
+              {Phase5.unChecked.map((e, i) => (
+                <div key={i} style={{ display: "flex" }}>
                   <div>
                     <img className={styles.checkBox} src={UncheckedBox}></img>
                   </div>

@@ -171,16 +171,19 @@
 .burnTransaction {
   background: #151517 0% 0% no-repeat padding-box;
   border-radius: 24px;
-  width: 933px;
   height: 47px;
   margin: auto;
   font: normal normal normal 15px/20px Roboto;
   color: white;
   line-height: 47px;
   margin-top: 20px;
+  width: 933px;
   max-width: 90%;
   padding-left: 20px;
   padding-right: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .link {
   color: white;

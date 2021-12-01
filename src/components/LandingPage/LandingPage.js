@@ -139,11 +139,7 @@ const LandingPage = () => {
               target="_blank"
               href="https://finder.terra.money/columbus-5/tx/6022F03025CB40F44F464C211BE23037B80C20D0398C8E585640573C3E1061B6"
             >
-              <TextTruncate
-                line={1}
-                truncateText="…"
-                text="https://finder.terra.money/columbus-5/tx/6022F03025CB40F44F464C211BE23037B80C20D0398C8E585640573C3E1061B6"
-              />
+              https://finder.terra.money/columbus-5/tx/6022F03025CB40F44F464C211BE23037B80C20D0398C8E585640573C3E1061B6
             </a>
           </div>
 
@@ -153,11 +149,7 @@ const LandingPage = () => {
               target="_blank"
               href="https://finder.terra.money/columbus-5/tx/B611903881A0EEADA4642E351447F26E1049A3213F4B75B2A1F8D71A5C1FF2C0"
             >
-              <TextTruncate
-                line={1}
-                truncateText="…"
-                text="https://finder.terra.money/columbus-5/tx/B611903881A0EEADA4642E351447F26E1049A3213F4B75B2A1F8D71A5C1FF2C0"
-              />
+              https://finder.terra.money/columbus-5/tx/B611903881A0EEADA4642E351447F26E1049A3213F4B75B2A1F8D71A5C1FF2C0
             </a>
           </div>
 
@@ -167,11 +159,7 @@ const LandingPage = () => {
               target="_blank"
               href="https://finder.terra.money/columbus-5/tx/4568FE0E03AD8BF18983F9A20BEBFC4BA753BAEC37BAC707B3C66E07C72FBE59"
             >
-              <TextTruncate
-                line={1}
-                truncateText="…"
-                text="https://finder.terra.money/columbus-5/tx/4568FE0E03AD8BF18983F9A20BEBFC4BA753BAEC37BAC707B3C66E07C72FBE59"
-              />
+              https://finder.terra.money/columbus-5/tx/4568FE0E03AD8BF18983F9A20BEBFC4BA753BAEC37BAC707B3C66E07C72FBE59
             </a>
           </div>
         </div>
