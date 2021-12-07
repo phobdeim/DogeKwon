@@ -3,8 +3,6 @@ import { useRef } from "react";
 import Footer from "../Footer/Footer";
 import Roadmap from "./Roadmap";
 
-import TextTruncate from "react-text-truncate";
-
 import styles from "./LandingPage.module.css";
 import Logo from "../../assets/logo.png";
 import TwitterLogo from "../../assets/twitterLogo.png";
@@ -13,14 +11,52 @@ import DiscordLogo from "../../assets/discordLogo.png";
 import DownIcon from "../../assets/downIcon.png";
 import Fire from "../../assets/fire.png";
 import SmallFire from "../../assets/smallFire.png";
+import Collapsible from "react-collapsible";
+import HamburgerIcon from "../../assets/hamburger.svg";
 
 const LandingPage = () => {
   const introRef = useRef();
   const careersRef = useRef();
 
+  const hamburgerIcon = <img id={styles.hamburgerIcon} src={HamburgerIcon} />;
+
   return (
     <div id={styles.root}>
       <div id={styles.firstSection}>
+        <div id={styles.headerButtonsContainer}>
+          <div id={styles.mobileHeaderButtons}>
+            <Collapsible trigger={hamburgerIcon}>
+              <a
+                href="https://coinhall.org/charts/terra/terra1hm4gfvl5d65v03wzgvy5lh780dnwk6xtnaeurj"
+                target="_blank"
+              >
+                <button className={styles.mobileHeaderButton}>Buy/Chart</button>
+              </a>
+              <a
+                href="https://tokens.daic.capital/?contract=terra16xtp5rmhx4agcas4cyg3srp6m6gauqagh02v9z"
+                target="_blank"
+              >
+                <button className={styles.mobileHeaderButton}>Holders</button>
+              </a>
+            </Collapsible>
+          </div>
+
+          <div id={styles.desktopHeaderButtons}>
+            <a
+              href="https://coinhall.org/charts/terra/terra1hm4gfvl5d65v03wzgvy5lh780dnwk6xtnaeurj"
+              target="_blank"
+            >
+              <button className={styles.headerButton}>Buy/Chart</button>
+            </a>
+            <a
+              href="https://tokens.daic.capital/?contract=terra16xtp5rmhx4agcas4cyg3srp6m6gauqagh02v9z"
+              target="_blank"
+            >
+              <button className={styles.headerButton}>Holders</button>
+            </a>
+          </div>
+        </div>
+
         <img id={styles.logo} src={Logo}></img>
         <h1 id={styles.title}>DogeKwon</h1>
         <h5 id={styles.titleSub}>For Lunatics, by Lunatics.</h5>
@@ -69,10 +105,12 @@ const LandingPage = () => {
           We are a team of developers, designers and artists who share a common
           love and interest for Terra ecosystem and cryptocurrency space in
           general. Our vision is constantly expanding and our numbers are
-          growing each day. If you want to become a part of our amazing team,
-          click the button below.
+          growing each day.
+          {/*If you want to become a part of our amazing team,
+          click the button below.*/}
         </p>
 
+        {/*
         <button
           id={styles.joinTeamButton}
           onClick={() => {
@@ -81,6 +119,7 @@ const LandingPage = () => {
         >
           Join our Team
         </button>
+        */}
 
         <div id={styles.tokenomicsBox}>
           <h2 className={styles.heading}>Tokenomics</h2>
@@ -167,7 +206,7 @@ const LandingPage = () => {
         <h2 className={styles.heading}>Roadmap</h2>
 
         <Roadmap />
-
+        {/*
         <h2 className={styles.heading} ref={careersRef}>
           We are hiring!
         </h2>
@@ -219,6 +258,7 @@ const LandingPage = () => {
           Please include information about your previous project experience in
           cryptocurrency space, as well as a portfolio of your work if possible.
         </p>
+        */}
 
         <Footer />
       </div>
