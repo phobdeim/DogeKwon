@@ -25,7 +25,7 @@ const LandingPage = () => {
       <div id={styles.firstSection}>
         <div id={styles.headerButtonsContainer}>
           <div id={styles.mobileHeaderButtons}>
-            <Collapsible trigger={hamburgerIcon}>
+            <Collapsible trigger={hamburgerIcon} transitionTime={300}>
               <a
                 href="https://coinhall.org/charts/terra/terra1hm4gfvl5d65v03wzgvy5lh780dnwk6xtnaeurj"
                 target="_blank"
